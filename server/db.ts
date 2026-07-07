@@ -1,6 +1,6 @@
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users, transcriptions, translations, mergedDocuments, InsertTranscription, InsertTranslation, InsertMergedDocument } from "../drizzle/schema";
+import { InsertUser, users, transcriptions, translations, mergedDocuments, products, InsertTranscription, InsertTranslation, InsertMergedDocument, InsertProduct } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -159,4 +159,20 @@ export async function getUserMergedDocuments(userId: number) {
   if (!db) return [];
   
   return await db.select().from(mergedDocuments).where(eq(mergedDocuments.userId, userId));
+}
+
+// Product helpers
+export async function createProduct(data: InsertProduct) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  
+  const result = await db.insert(products).values(data);
+  return result;
+}
+
+export async function getAllProducts() {
+  const db = await getDb();
+  if (!db) return [];
+  
+  return await db.select().from(products);
 }

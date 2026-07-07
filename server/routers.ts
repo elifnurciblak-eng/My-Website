@@ -11,12 +11,81 @@ import {
   getTranscriptionTranslations,
   createMergedDocument,
   getUserMergedDocuments,
+  getAllProducts,
 } from "./db";
 import { invokeLLM, type InvokeResult } from "./_core/llm";
 import { transcribeAudio } from "./_core/voiceTranscription";
 
 export const appRouter = router({
     system: systemRouter,
+    productsFeed: router({
+      // Get products in Google Merchant Center compatible XML format
+      getXmlFeed: publicProcedure.query(async () => {
+        try {
+          const products = await getAllProducts();
+          
+          // Build XML using string concatenation for simplicity
+          // (xmlbuilder is available if you prefer it)
+          let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+          xml += '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">\n';
+          xml += '  <channel>\n';
+          xml += '    <title>Academic Translator Products</title>\n';
+          xml += '    <link>https://websitemymy.netlify.app</link>\n';
+          xml += '    <description>iyzico Product Feed - Google Merchant Center Compatible</description>\n';
+          
+          // Add each product as an item
+          for (const product of products) {
+            xml += '    <item>\n';
+            xml += `      <g:id>${escapeXml(product.id.toString())}</g:id>\n`;
+            xml += `      <title>${escapeXml(product.title)}</title>\n`;
+            xml += `      <description>${escapeXml(product.description)}</description>\n`;
+            xml += `      <g:price>${escapeXml(product.price)}</g:price>\n`;
+            xml += `      <link>${escapeXml(product.link)}</link>\n`;
+            xml += `      <g:image_link>${escapeXml(product.imageLink)}</g:image_link>\n`;
+            xml += `      <g:availability>${escapeXml(product.availability)}</g:availability>\n`;
+            xml += `      <g:brand>${escapeXml(product.brand)}</g:brand>\n`;
+            xml += `      <g:condition>${escapeXml(product.condition)}</g:condition>\n`;
+            if (product.googleProductCategory) {
+              xml += `      <g:google_product_category>${escapeXml(product.googleProductCategory)}</g:google_product_category>\n`;
+            }
+            xml += '    </item>\n';
+          }
+          
+          xml += '  </channel>\n';
+          xml += '</rss>';
+          
+          return { xml, count: products.length };
+        } catch (error) {
+          throw new Error(`Failed to generate feed: ${error}`);
+        }
+      }),
+      
+      // Get products as JSON (for API consumers)
+      getJsonFeed: publicProcedure.query(async () => {
+        try {
+          const products = await getAllProducts();
+          return {
+            success: true,
+            count: products.length,
+            products: products.map(p => ({
+              id: p.id,
+              title: p.title,
+              description: p.description,
+              price: p.price,
+              link: p.link,
+              imageLink: p.imageLink,
+              availability: p.availability,
+              brand: p.brand,
+              condition: p.condition,
+              googleProductCategory: p.googleProductCategory,
+            })),
+          };
+        } catch (error) {
+          throw new Error(`Failed to fetch products: ${error}`);
+        }
+      }),
+    }),
+
     auth: router({
     me: publicProcedure.query(opts => opts.ctx.user),
     logout: publicProcedure.mutation(({ ctx }) => {
@@ -251,5 +320,16 @@ Guidelines:
     }),
   }),
 });
+
+// Helper function to escape XML special characters
+function escapeXml(str: string): string {
+  if (!str) return "";
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
 
 export type AppRouter = typeof appRouter;

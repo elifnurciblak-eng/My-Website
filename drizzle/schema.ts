@@ -71,3 +71,22 @@ export const mergedDocuments = mysqlTable("mergedDocuments", {
 
 export type MergedDocument = typeof mergedDocuments.$inferSelect;
 export type InsertMergedDocument = typeof mergedDocuments.$inferInsert;
+
+// Products table for iyzico/Google Merchant feed
+export const products = mysqlTable("products", {
+  id: int("id").autoincrement().primaryKey(),
+  title: varchar("title", { length: 255 }).notNull(),
+  description: text("description").notNull(),
+  price: varchar("price", { length: 50 }).notNull(), // e.g., "99.99 TRY"
+  link: varchar("link", { length: 512 }).notNull(),
+  imageLink: varchar("imageLink", { length: 512 }).notNull(),
+  availability: varchar("availability", { length: 50 }).default("in stock").notNull(),
+  brand: varchar("brand", { length: 100 }).notNull(),
+  condition: varchar("condition", { length: 50 }).default("new").notNull(),
+  googleProductCategory: varchar("googleProductCategory", { length: 255 }),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type Product = typeof products.$inferSelect;
+export type InsertProduct = typeof products.$inferInsert;
