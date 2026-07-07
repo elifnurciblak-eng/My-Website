@@ -1,0 +1,331 @@
+[WARN] The "pnpm" field in package.json is no longer read by pnpm. The following keys were ignored: "pnpm.patchedDependencies", "pnpm.overrides". See https://pnpm.io/settings for the new home of each setting.
+
+> academic-video-translator@1.0.0 dev /home/ubuntu/project
+> NODE_ENV=development tsx watch server/_core/index.ts
+
+[OAuth] Initialized with baseURL: 
+[OAuth] ERROR: OAUTH_SERVER_URL is not configured! Set OAUTH_SERVER_URL environment variable.
+Server running on http://localhost:3000/
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /credits. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /credits. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+1:12:07 AM [vite] (client) page reload src/const.ts
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /credits. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /credits. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /credits. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /credits. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+1:12:17 AM [vite] (client) hmr update /src/pages/Credits.tsx, /src/index.css
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /credits. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /credits. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+[Auth] Missing session cookie
+1:12:29 AM [vite] (client) hmr update /src/pages/Credits.tsx, /src/index.css
+[Auth] Missing session cookie
+1:19:42 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+1:19:50 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+1:20:15 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[Auth] Missing session cookie
+1:20:22 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+1:27:01 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /workflow. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /workflow. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+1:27:58 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+1:27:58 AM [vite] Internal server error: /home/ubuntu/project/client/src/pages/Workflow.tsx: Unexpected keyword 'const'. (16:9)
+
+  14 |
+  15 | export default function Workflow() {
+> 16 |   const  const [, setLocation] = useLocation();
+     |          ^
+  17 |   // const { user } = useAuth(); // Temporarily disabled for preview
+  18 |   const [currentStep, setCurrentStep] = useState<WorkflowStep>("upload");
+  19 |   
+  Plugin: vite:react-babel
+  File: /home/ubuntu/project/client/src/pages/Workflow.tsx:16:9
+  14 |  
+  15 |  export default function Workflow() {
+  16 |    const  const [, setLocation] = useLocation();
+     |           ^
+  17 |    // const { user } = useAuth(); // Temporarily disabled for preview
+  18 |    const [currentStep, setCurrentStep] = useState<WorkflowStep>("upload");
+      at toParseError (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parse-error.ts:95:45)
+      at raise (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/tokenizer/index.ts:1503:19)
+      at checkReservedWord (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2873:12)
+      at checkReservedWord (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:2925:15)
+      at parseIdentifierName (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2848:12)
+      at parseIdentifier (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2805:23)
+      at parseBindingAtom (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/lval.ts:427:17)
+      at parseBindingAtom (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:4005:20)
+      at parseVarId (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1618:21)
+      at parseVarId (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3663:13)
+      at parseVar (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1577:12)
+      at parseVarStatement (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1246:10)
+      at parseVarStatement (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3126:33)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:607:21)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3185:20)
+      at parseStatementLike (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:477:17)
+      at parseStatementListItem (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:426:17)
+      at parseBlockOrModuleBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1439:16)
+      at parseBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1412:10)
+      at parseBlock (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1380:10)
+      at parseFunctionBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2616:24)
+      at parseFunctionBodyAndFinish (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2585:10)
+      at parseFunctionBodyAndFinish (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:2646:20)
+      at callback (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1690:12)
+      at withSmartMixTopicForbiddingContext (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:3166:14)
+      at parseFunction (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1688:10)
+      at parseExportDefaultExpression (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:2565:19)
+      at parseExportDefaultExpression (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3117:20)
+      at parseExport (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:2447:25)
+      at parseExport (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3087:22)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:644:25)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3185:20)
+      at parseStatementLike (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:477:17)
+      at parseModuleItem (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:414:17)
+      at parseBlockOrModuleBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1438:16)
+      at parseBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1412:10)
+      at parseProgram (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:229:10)
+      at parseTopLevel (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:203:25)
+      at parse (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/index.ts:93:10)
+      at parse (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:4309:20)
+      at parse (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/index.ts:92:38)
+      at parser (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/parser/index.ts:28:19)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/transformation/normalize-file.ts:49:24)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/transformation/index.ts:40:36)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/transform.ts:29:20)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/project/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /src/pages/Workflow.tsx?t=1783214878134. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /src/pages/Workflow.tsx?t=1783214878134. Is the variable mistyped?
+1:27:58 AM [vite] (client) Pre-transform error: /home/ubuntu/project/client/src/pages/Workflow.tsx: Unexpected keyword 'const'. (16:9)
+
+  14 |
+  15 | export default function Workflow() {
+> 16 |   const  const [, setLocation] = useLocation();
+     |          ^
+  17 |   // const { user } = useAuth(); // Temporarily disabled for preview
+  18 |   const [currentStep, setCurrentStep] = useState<WorkflowStep>("upload");
+  19 |   
+  Plugin: vite:react-babel
+  File: /home/ubuntu/project/client/src/pages/Workflow.tsx:16:9
+  14 |  
+  15 |  export default function Workflow() {
+  16 |    const  const [, setLocation] = useLocation();
+     |           ^
+  17 |    // const { user } = useAuth(); // Temporarily disabled for preview
+  18 |    const [currentStep, setCurrentStep] = useState<WorkflowStep>("upload");
+1:27:59 AM [vite] Internal server error: /home/ubuntu/project/client/src/pages/Workflow.tsx: Unexpected keyword 'const'. (16:9)
+
+  14 |
+  15 | export default function Workflow() {
+> 16 |   const  const [, setLocation] = useLocation();
+     |          ^
+  17 |   // const { user } = useAuth(); // Temporarily disabled for preview
+  18 |   const [currentStep, setCurrentStep] = useState<WorkflowStep>("upload");
+  19 |   
+  Plugin: vite:react-babel
+  File: /home/ubuntu/project/client/src/pages/Workflow.tsx:16:9
+  14 |  
+  15 |  export default function Workflow() {
+  16 |    const  const [, setLocation] = useLocation();
+     |           ^
+  17 |    // const { user } = useAuth(); // Temporarily disabled for preview
+  18 |    const [currentStep, setCurrentStep] = useState<WorkflowStep>("upload");
+      at toParseError (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parse-error.ts:95:45)
+      at raise (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/tokenizer/index.ts:1503:19)
+      at checkReservedWord (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2873:12)
+      at checkReservedWord (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:2925:15)
+      at parseIdentifierName (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2848:12)
+      at parseIdentifier (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2805:23)
+      at parseBindingAtom (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/lval.ts:427:17)
+      at parseBindingAtom (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:4005:20)
+      at parseVarId (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1618:21)
+      at parseVarId (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3663:13)
+      at parseVar (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1577:12)
+      at parseVarStatement (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1246:10)
+      at parseVarStatement (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3126:33)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:607:21)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3185:20)
+      at parseStatementLike (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:477:17)
+      at parseStatementListItem (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:426:17)
+      at parseBlockOrModuleBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1439:16)
+      at parseBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1412:10)
+      at parseBlock (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1380:10)
+      at parseFunctionBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2616:24)
+      at parseFunctionBodyAndFinish (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:2585:10)
+      at parseFunctionBodyAndFinish (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:2646:20)
+      at callback (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1690:12)
+      at withSmartMixTopicForbiddingContext (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/expression.ts:3166:14)
+      at parseFunction (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1688:10)
+      at parseExportDefaultExpression (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:2565:19)
+      at parseExportDefaultExpression (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3117:20)
+      at parseExport (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:2447:25)
+      at parseExport (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3087:22)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:644:25)
+      at parseStatementContent (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:3185:20)
+      at parseStatementLike (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:477:17)
+      at parseModuleItem (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:414:17)
+      at parseBlockOrModuleBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1438:16)
+      at parseBlockBody (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:1412:10)
+      at parseProgram (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:229:10)
+      at parseTopLevel (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/statement.ts:203:25)
+      at parse (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/parser/index.ts:93:10)
+      at parse (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/plugins/typescript/index.ts:4309:20)
+      at parse (/home/ubuntu/project/node_modules/.pnpm/@babel+parser@7.28.4/node_modules/@babel/parser/src/index.ts:92:38)
+      at parser (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/parser/index.ts:28:19)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/transformation/normalize-file.ts:49:24)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/transformation/index.ts:40:36)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/project/node_modules/.pnpm/@babel+core@7.28.4/node_modules/@babel/core/src/transform.ts:29:20)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/project/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /src/pages/Workflow.tsx?t=1783214878134. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /src/pages/Workflow.tsx?t=1783214878134. Is the variable mistyped?
+1:28:03 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /workflow. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /workflow. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+1:28:23 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+[Auth] Missing session cookie
+1:31:30 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+1:33:37 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+1:34:04 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+1:34:22 AM [vite] (client) hmr update /src/pages/Credits.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css, /src/components/ui/button.tsx
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css, /src/components/ui/card.tsx
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css, /src/components/ui/dialog.tsx
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css, /src/components/ui/input.tsx
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css, /src/components/ui/label.tsx
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css, /src/components/ui/select.tsx
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/components/ui/sonner.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css, /src/components/ui/textarea.tsx
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/components/ui/tooltip.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/components/ErrorBoundary.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/contexts/ThemeContext.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/pages/Documentation.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/pages/NotFound.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/pages/Workflow.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/pages/Credits.tsx, /src/index.css
+1:34:40 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+1:34:40 AM [vite] (client) page reload src/main.tsx
+1:34:41 AM [vite] (client) hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+1:34:41 AM [vite] (client) hmr update /src/pages/NotFound.tsx, /src/pages/Documentation.tsx, /src/pages/Home.tsx, /src/pages/Credits.tsx, /src/pages/Workflow.tsx
+1:34:41 AM [vite] (client) hmr invalidate /src/components/ui/dialog.tsx Could not Fast Refresh ("useDialogComposition" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+1:34:41 AM [vite] (client) hmr update /src/components/ui/input.tsx, /src/components/ui/textarea.tsx
+[Auth] Missing session cookie
+1:34:42 AM [vite] (client) hmr invalidate /src/contexts/ThemeContext.tsx Could not Fast Refresh ("useTheme" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+1:34:42 AM [vite] (client) hmr update /src/App.tsx
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /.. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /.. Is the variable mistyped?
+[Auth] Missing session cookie
+(!) %VITE_ANALYTICS_ENDPOINT% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
+(!) %VITE_ANALYTICS_WEBSITE_ID% is not defined in env variables found in /favicon.ico. Is the variable mistyped?
